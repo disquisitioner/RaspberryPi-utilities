@@ -19,3 +19,9 @@ are as follows:
   in order to have room on the OLED for the temperature data.
 * OLEDconsole.sh -- Init script for starting/stopping OLEDconsole.py (in any form) as a system
   service.
+
+**Easily construct init scripts to start/stop Python applications as system services**
+
+* myservice.sh -- Template shell script containing instructions for creating an init
+  script you can install via /etc/init.d to start/stop any Python application as a 
+  system service and have it invoked automatically at boot time and run in the background.
